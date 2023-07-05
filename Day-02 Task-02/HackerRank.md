@@ -150,77 +150,8 @@ public class maxi{
     }
 }
 ```
-## 4.Write a program to calculate the percentage (according to marks of a student) and grade (according to the percentage of a student). Five numbers(A, B, C, D & E) represent the marks of a student in 5 subjects which are out of 100. Print the percentage and the grade of the student.
 
-- If percentage >= 90% : Grade A If percentage >= 80% but <90 : Grade B If percentage >= 70% but <80: Grade C If percentage >= 60% but <70: Grade D If percentage >= 40% but <60: Grade E If percentage < 40%: Grade F
-
-- NOTE: You have to take the lowest integer of the percentage. E.g. 90.8% will be treated as 90%.
-
-- Input Format
-
-- There will be five lines of inputs as following: The five lines contain the 5 subject marks of the student in numerical format.
-
-- Constraints
-
-- NA
-
-- Output Format
-
-- The first line indicates the percentage in integer format. The next line displays the grade in string format.
-
-- Sample Input 0
-
-- 50
-- 60
-- 70
-- 80
-- 90
-- Sample Output 0
-- 70
-- C
- ```
-import java.util.Scanner;
-public class maxi{
-    public static void main(String[]arg){
-        Scanner scan = new Scanner(System.in);
-         {
-            int A = scan.nextInt();
-            int B = scan.nextInt();
-            int C = scan.nextInt();
-            int D = scan.nextInt();
-            int E = scan.nextInt();
-
-            int total = A + B + C + D + E;
-            int precentage = total / 5;
-
-            String grade;
-            
-            if(precentage>=90){
-                grade = "A";
-            }
-            else if(precentage>=80){
-                grade = "B";
-            }
-            else if (precentage>=70){
-                grade = "C";
-            }
-            else if (precentage>=60){
-                grade = "D";
-            }
-            else if(precentage>=40){
-                grade = "E";
-            }
-            else{
-                grade = "F";
-            }
-            
-            System.out.println(precentage);
-            System.out.println(grade);
-        }
-    }
-}
-```
-## 5.Write a program to input an integer(A) from user and print the Ath month of the year.
+## 4.Write a program to input an integer(A) from user and print the Ath month of the year.
 
 - Months list: {January, February, March, April, May, June, July, August, September, October, November, December}
 
@@ -258,7 +189,7 @@ public class MonthOfYear {
     }
 }
 ```
-## 6.You are given 3 integer angles(in degrees) A, B and C of a triangle. You have to tell whether the triangle is valid or not.
+## 5.You are given 3 integer angles(in degrees) A, B and C of a triangle. You have to tell whether the triangle is valid or not.
 
 - A triangle is valid if sum of its angles equals to 180.
 
@@ -309,7 +240,7 @@ public class fun{
     }
 }
 ```
-## 7.You are given a Bank account having N amount and you are asked to perform ADD(credit) or SUBTRACT(debit) operation of an amount X.
+## 6.You are given a Bank account having N amount and you are asked to perform ADD(credit) or SUBTRACT(debit) operation of an amount X.
 
 - After the operation print the amount left in the Bank account. If the debit amount is greater than current balance print "Insufficient Funds"(without quotes) and the operation is skipped.
 
@@ -371,7 +302,7 @@ public class BankAccount {
     }
 }
 ```
-## 8.Take an integer A as input. You have to tell whether A is divible by both 5 and 11 or not.
+## 7.Take an integer A as input. You have to tell whether A is divible by both 5 and 11 or not.
 
 - Input Format
 
@@ -400,7 +331,7 @@ public class Main {
     }
 }
 ```
-## 9.Write a program to input from user three numbers(A, B & C) representing side lengths of a triangle.
+## 8.Write a program to input from user three numbers(A, B & C) representing side lengths of a triangle.
 
 - You have to print if the traingle is "equilateral", "scalene" or "isosceles".
 
